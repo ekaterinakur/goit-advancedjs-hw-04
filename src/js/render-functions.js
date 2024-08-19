@@ -64,7 +64,7 @@ export function showNotification(message) {
   iziToast.info({
     message,
     backgroundColor: '#6C8CFF',
-    iconColor: "white"
+    iconColor: 'white',
   });
 }
 
@@ -78,7 +78,7 @@ export function showErrorNotification(message) {
 
 export function smoothScroll() {
   const galleryItem = document.querySelector('.gallery-item');
-  
+
   if (galleryItem) {
     const { height } = galleryItem.getBoundingClientRect();
 

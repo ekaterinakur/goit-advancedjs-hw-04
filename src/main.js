@@ -32,7 +32,7 @@ async function getImages() {
 
       currentPage++;
 
-      if (currentPage <= Math.ceil(data.totalHits / DEFAULT_PER_PAGE)) { 
+      if (currentPage <= Math.ceil(data.totalHits / DEFAULT_PER_PAGE)) {
         showLoadMore();
       } else {
         showNotification(
